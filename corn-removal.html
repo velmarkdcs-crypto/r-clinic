@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-MY">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Corn Removal in Klang | Royall Clinic</title>
+    <meta name="description" content="Get painless foot corn removal and callus reduction at Royall Clinic in Klang. Clinical debridement, enucleation, and offloading therapy by professional doctors.">
+    <link rel="canonical" href="https://royallclinic.com/corn-removal.html">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;600;700&family=Playfair+Display:wght=400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0B1A23;
+            --accent: #c8a16a;
+            --soft: #f7f4ef;
+            --ink: #263238;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: "Inter", sans-serif; color: var(--ink); background: #fff; line-height: 1.7; }
+        a { color: inherit; text-decoration: none; }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: var(--primary);
+            padding: 14px 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar img { height: 52px; display: block; }
+        .nav-actions { display: flex; gap: 18px; align-items: center; color: #fff; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; font-weight: 700; }
+        .nav-actions a:hover { color: var(--accent); }
+
+        .hero {
+            min-height: 88vh;
+            padding: 130px 40px 70px;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(320px, 520px);
+            gap: 54px;
+            align-items: center;
+            background: linear-gradient(90deg, rgba(11,26,35,0.94), rgba(11,26,35,0.72)), url("images/corn-removal.avif") center/cover no-repeat;
+            color: #fff;
+        }
+
+        .hero-content { max-width: 760px; }
+        .eyebrow { display: block; color: var(--accent); font-size: 11px; letter-spacing: 4px; text-transform: uppercase; font-weight: 700; margin-bottom: 18px; }
+        h1, h2, h3 { font-family: "Playfair Display", serif; line-height: 1.12; color: inherit; }
+        h1 { font-size: clamp(40px, 6vw, 76px); max-width: 820px; margin-bottom: 24px; }
+        .lead { max-width: 690px; color: rgba(255,255,255,0.86); font-size: 18px; font-weight: 300; }
+
+        .booking-panel {
+            background: rgba(255,255,255,0.96);
+            color: var(--primary);
+            border-top: 5px solid var(--accent);
+            padding: 34px;
+            box-shadow: 0 30px 80px rgba(0,0,0,0.22);
+        }
+
+        .booking-panel h2 { font-size: 30px; margin-bottom: 14px; }
+        .booking-panel p { font-size: 14px; color: #56636a; margin-bottom: 24px; }
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 46px;
+            padding: 0 22px;
+            background: var(--accent);
+            color: #fff;
+            border: 0;
+            font-size: 11px;
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        section { padding: 92px 40px; }
+        .container { max-width: 1180px; margin: 0 auto; }
+        .section-head { max-width: 780px; margin-bottom: 38px; }
+        .section-head h2 { color: var(--primary); font-size: clamp(32px, 4vw, 48px); margin-bottom: 16px; }
+        .section-head p { color: #5b666b; }
+
+        .service-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+        .service-card { border: 1px solid #ece7df; border-radius: 4px; padding: 28px; min-height: 218px; background: #fff; }
+        .service-card h3 { color: var(--primary); font-size: 24px; margin-bottom: 12px; }
+        .service-card p { color: #647078; font-size: 14px; }
+
+        .info-band { background: var(--soft); }
+        .info-layout { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 42px; align-items: start; }
+        .info-box { background: #fff; border: 1px solid #e8e0d5; border-radius: 4px; padding: 30px; }
+        .info-box h3 { color: var(--primary); font-size: 28px; margin-bottom: 14px; }
+        .info-list { list-style: none; display: grid; gap: 14px; }
+        .info-list li { padding-left: 20px; position: relative; color: #5f6b72; }
+        .info-list li::before { content: ""; position: absolute; left: 0; top: 11px; width: 7px; height: 7px; background: var(--accent); }
+
+        .process { background: var(--primary); color: #fff; }
+        .process .section-head h2 { color: #fff; }
+        .process .section-head p { color: #fff; }
+        .steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+        .step { border-left: 2px solid var(--accent); padding-left: 20px; }
+        .step strong { display: block; color: var(--accent); font-size: 12px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; }
+        .step h3 { font-size: 22px; margin-bottom: 8px; color: #fff; }
+        .step p { color: rgba(255,255,255,0.72); font-size: 14px; }
+
+        .faq-section { background: #fff; border-top: 1px solid #ece7df; }
+        .faq-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
+        .faq-item { background: #fff; }
+        .faq-item h3 { font-size: 18px; color: var(--primary); margin-bottom: 10px; font-family: "Inter", sans-serif; font-weight: 600; }
+        .faq-item p { color: #5f6b72; font-size: 14px; }
+
+        .cta { text-align: center; background: var(--soft); }
+        .cta h2 { color: var(--primary); font-size: clamp(32px, 4vw, 50px); margin-bottom: 18px; }
+        .cta p { max-width: 680px; margin: 0 auto 28px; color: #5f6b72; }
+
+        footer { background: #041c22; color: rgba(255,255,255,0.68); padding: 36px 40px; text-align: center; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+
+        @media (max-width: 900px) {
+            .navbar { padding: 10px 16px; }
+            .navbar img { height: 42px; }
+            .nav-actions { gap: 12px; font-size: 10px; letter-spacing: 1px; }
+            .hero { grid-template-columns: 1fr; padding: 108px 22px 54px; min-height: auto; }
+            .booking-panel { padding: 26px; }
+            section { padding: 68px 22px; }
+            .service-grid, .info-layout, .steps, .faq-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html#home" aria-label="Royall Clinic home"><img src="images/logo.avif" alt="Royall Clinic"></a>
+        <div class="nav-actions">
+            <a href="index.html#gp-services">General Practice</a>
+            <a href="index.html#contact">Find Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">Corn & Callus Care</span>
+                <h1>Professional Corn Removal in Klang</h1>
+                <p class="lead">Safe, hygienic, and pain-free removal of painful foot corns, calluses, and deep-rooted hyperkeratotic tissue. Royall Clinic offers professional doctor-led podiatric care to restore comfortable mobility instantly.</p>
+            </div>
+            <aside class="booking-panel">
+                <h2>Book Corn Removal</h2>
+                <p>Message Royall Clinic to arrange an expert corn removal treatment session and receive immediate mechanical pressure relief from painful lesions.</p>
+                <a class="button" href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20ask%20about%20Corn%20Removal." target="_blank" rel="noopener">WhatsApp Clinic</a>
+            </aside>
+        </header>
+
+        <!-- Service Core Capabilities Grid -->
+        <section class="services">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Our Foot Care Interventions</h2>
+                    <p>Corns develop a hard, deep keratin plug that presses directly into the nerves below. Home clipping or acid pads can damage healthy skin; our professional methods resolve the core root safely.</p>
+                </div>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <h3>Clinical Enucleation</h3>
+                        <p>The precise mechanical removal of the deep hard center core of the corn using sterile surgical tools. This brings instantaneous relief from sharp walking pain.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Callus Debridement</h3>
+                        <p>Painless reduction of surrounding thick, yellowish layers of dead skin using clinical scalpel scraping techniques to redistribute frictional forces flatly.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Offloading Therapy</h3>
+                        <p>Application of custom medical-grade padding, ring cushions, or orthotic alignment recommendations to ensure the treated area remains pressure-free while healing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informational Layout Band -->
+        <section class="info-band">
+            <div class="container">
+                <div class="info-layout">
+                    <div class="info-box">
+                        <h3>High-Risk Diabetic Warning</h3>
+                        <p style="color:#5f6b72; margin-bottom:18px;">Over-the-counter salicylic acid patches or bathroom blade cutting can result in severe limb-threatening ulcers. Immediate professional clinic care is mandatory if you have:</p>
+                        <ul class="info-list">
+                            <li>Diabetes Mellitus (compromised healing capability and poor nerve sensation).</li>
+                            <li>Peripheral Arterial Disease (PAD) or cold, pale feet with poor circulation.</li>
+                            <li>Signs of infection including red streaks, oozing pus, or a foul odor from the corn site.</li>
+                            <li>Deep ulceration forming underneath or surrounding the hard callus tissue border.</li>
+                        </ul>
+                    </div>
+                    <div class="info-box">
+                        <h3>Understanding Root Triggers</h3>
+                        <p style="color:#5f6b72; margin-bottom:18px;">Corns do not have roots like a plant; they are your skin's protective armor gone wrong due to abnormal localized bone friction points:</p>
+                        <ul class="info-list">
+                            <li><strong>Ill-fitting Footwear:</strong> Wearing narrow-pointed high heels or loose shoes that cause the toes to slide and rub against the inner lining.</li>
+                            <li><strong>Biomechanical Variations:</strong> Hammertoes, bunions, or high foot arches that alter the natural weight distribution while walking.</li>
+                            <li><strong>Missing Sock Barriers:</strong> Going sockless inside stiff leather work shoes or structural safety boots.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Treatment Process Workflow -->
+        <section class="process">
+            <div class="container">
+                <div class="section-head">
+                    <h2>The Clinical Removal Journey</h2>
+                    <p>What to expect during a typical, painless corn reduction procedure inside our treatment room.</p>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <strong>Step 01</strong>
+                        <h3>Assessment</h3>
+                        <p>The doctor sanitizes the foot and examines the skin under a focused light to differentiate the corn from viral plantar warts.</p>
+                    </div>
+                    <div class="step">
+                        <strong>Step 02</strong>
+                        <h3>Softening</h3>
+                        <p>A specialized clinical application solution is applied to gently loosen the tough external dead hyperkeratotic layers.</p>
+                    </div>
+                    <div class="step">
+                        <strong>Step 03</strong>
+                        <h3>Debridement</h3>
+                        <p>Using a sterile surgical blade held flat, the physician carefully shaves off the dead callus without touching live flesh.</p>
+                    </div>
+                    <div class="step">
+                        <strong>Step 04</strong>
+                        <h3>Enucleation</h3>
+                        <p>The central point of the core is scooped out completely, immediately lifting the internal pressure. A sterile barrier pad is applied.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frequently Asked Questions -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Common questions regarding clinical foot corn management, recovery timeline, and recurrence prevention.</p>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Does the corn removal procedure hurt?</h3>
+                        <p>No. Because corns consist entirely of dead layers of hyperkeratotic skin, shaving down the tissue and scooping out the center core is virtually painless. Most patients experience immediate relief from walking discomfort right after the treatment.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What is the difference between a foot corn and a plantar wart?</h3>
+                        <p>Corns are caused purely by friction and pressure, featuring a clear hard center core with regular skin lines encircling them. Plantar warts are caused by a viral infection (HPV), disrupt natural skin lines, and typically show tiny pinpoint black dots (thrombosed capillaries) when scraped.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Will the foot corn grow back after treatment?</h3>
+                        <p>A corn will only return if the underlying mechanical pressure or shoe friction that caused it remains unchanged. Wearing wider footwear, using protective silicone toe dividers, or adding custom offloading shoe pads will successfully keep the area clear.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Why should I avoid over-the-counter corn plaster patches?</h3>
+                        <p>Commercial corn plasters contain strong salicylic acid that does not differentiate between dead corn tissue and healthy skin. This often causes chemical burns, skin maceration, and severe ulcerations, which are incredibly dangerous for diabetic individuals.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How long does the treatment session take?</h3>
+                        <p>A typical professional debridement and enucleation session takes approximately 20 to 30 minutes per foot, depending on the number of lesions and the overall thickness of the surrounding callus layers.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Is there any downtime or recovery care needed?</h3>
+                        <p>There is zero downtime; you can walk normally immediately after leaving the clinic. We recommend keeping the area dry for the first 24 hours if a sterile defensive dressing was applied, and switching to soft, non-binding footwear.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call To Action Section -->
+        <section class="cta">
+            <div class="container">
+                <h2>Need corn removal in Klang?</h2>
+                <p>Book Royall Clinic for a safe, sterile, and professional corn removal treatment session.</p>
+                <a class="button" href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20book%20Corn%20Removal." target="_blank" rel="noopener">Book On WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Royall Clinic 2026 | Klang, Selangor | Be Loyal To The Royall Within
+    </footer>
+    <script src="assets/whatsapp-float.js"></script>
+</body>
+</html>

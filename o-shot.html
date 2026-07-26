@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-MY">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>O-Shot Treatment Klang | Women's Intimate Wellness | Royall Clinic</title>
+    <meta name="description" content="Regain comfort & confidence. Safe, private O-Shot treatment in Klang at Royall Clinic. Specialized platelet growth-factor therapy for intimate wellness and urinary support.">
+    <meta name="keywords" content="O-shot Klang, female intimate wellness Selangor, PRP for women Malaysia, urinary incontinence treatment Klang, vaginal rejuvenation clinic">
+    <link rel="canonical" href="https://royallclinic.my/o-shot.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="O-Shot Treatment Klang | Royall Clinic">
+    <meta property="og:description" content="Safe, private, and professional growth-factor rejuvenation treatments for women's intimate health at Royall Clinic Klang.">
+    <meta property="og:url" content="https://royallclinic.my/o-shot.html">
+    <meta property="og:image" content="https://royallclinic.my/images/womens-wellness.avif">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root { --primary:#0B1A23; --accent:#c8a16a; --soft:#f7f4ef; --ink:#263238; }
+        * { box-sizing:border-box; margin:0; padding:0; }
+        body { font-family:"Inter",sans-serif; color:var(--ink); background:#fff; line-height:1.7; }
+        a { color:inherit; text-decoration:none; }
+        
+        .navbar { position:fixed; top:0; left:0; right:0; z-index:100; background:var(--primary); padding:14px 28px; display:flex; align-items:center; justify-content:space-between; }
+        .navbar img { height:52px; display:block; }
+        .nav-actions { display:flex; gap:18px; align-items:center; color:#fff; font-size:11px; letter-spacing:1.8px; text-transform:uppercase; font-weight:700; }
+        .nav-actions a:hover { color:var(--accent); }
+        
+        /* Updated background to match female wellness focus */
+        .hero { min-height:88vh; padding:130px 40px 70px; display:grid; grid-template-columns:minmax(0,1fr) minmax(320px,500px); gap:54px; align-items:center; background:linear-gradient(90deg, rgba(11,26,35,0.94), rgba(11,26,35,0.72)), url("images/womens-wellness.avif") center/cover no-repeat; color:#fff; }
+        .eyebrow { display:block; color:var(--accent); font-size:11px; letter-spacing:4px; text-transform:uppercase; font-weight:700; margin-bottom:18px; }
+        h1, h2, h3 { font-family:"Playfair Display",serif; line-height:1.12; color:inherit; }
+        h1 { font-size:clamp(40px, 6vw, 72px); max-width:760px; margin-bottom:24px; }
+        .lead { max-width:670px; color:rgba(255,255,255,0.86); font-size:18px; font-weight:300; }
+        
+        .booking-panel { background:rgba(255,255,255,0.96); color:var(--primary); border-top:5px solid var(--accent); padding:34px; box-shadow:0 30px 80px rgba(0,0,0,0.22); }
+        .booking-panel h2 { font-size:30px; margin-bottom:14px; }
+        .booking-panel p { font-size:14px; color:#56636a; margin-bottom:24px; }
+        .button { display:inline-flex; align-items:center; justify-content:center; min-height:46px; padding:0 22px; background:var(--accent); color:#fff; border:0; font-size:11px; letter-spacing:1.6px; text-transform:uppercase; font-weight:700; cursor:pointer; transition: background 0.3s ease; }
+        .button:hover { background: #b08b57; }
+        
+        section { padding:92px 40px; }
+        .bg-soft { background: var(--soft); }
+        .container { max-width:1180px; margin:0 auto; }
+        .section-head { max-width:760px; margin-bottom:38px; }
+        .section-head h2 { color:var(--primary); font-size:clamp(32px, 4vw, 48px); margin-bottom:16px; }
+        .section-head p { color:#5b666b; font-size:16px; }
+        
+        /* Grid styling for technical depth additions */
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; margin-bottom: 40px; }
+        .info-card { background:#fff; border:1px solid #ece7df; border-radius:18px; padding:32px; box-shadow:0 15px 40px rgba(0,0,0,0.04); }
+        .info-card h3 { color: var(--primary); font-size: 22px; margin-bottom: 12px; }
+        .info-card p { color:#5b666b; margin-bottom:14px; }
+        .info-card ul { list-style-position: inside; color:#5b666b; margin-left: 5px; }
+        .info-card ul li { margin-bottom: 8px; }
+        
+        /* FAQ Section styling */
+        .faq-list { max-width: 800px; margin: 0 auto; text-align: left; }
+        .faq-item { border-bottom: 1px solid #ece7df; padding: 24px 0; }
+        .faq-item h3 { font-size: 20px; color: var(--primary); margin-bottom: 8px; font-family: "Inter", sans-serif; font-weight: 600; }
+        .faq-item p { color: #5b666b; font-size: 15px; }
+
+        .cta { text-align:center; background:#fff; }
+        .cta h2 { color:var(--primary); font-size:clamp(32px, 4vw, 48px); margin-bottom:18px; }
+        .cta p { max-width:680px; margin:0 auto 28px; color:#5f6b72; }
+        
+        footer { background:#041c22; color:rgba(255,255,255,0.68); padding:36px 40px; text-align:center; font-size:12px; letter-spacing:1px; text-transform:uppercase; }
+        
+        /* Native WhatsApp Floating Button Styling */
+        .whatsapp-floating-btn { position: fixed; bottom: 32px; right: 32px; background-color: #25D366; color: #FFFFFF; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25); z-index: 9999; transition: transform 0.3s ease, background-color 0.3s ease; }
+        .whatsapp-floating-btn:hover { transform: scale(1.08); background-color: #20ba5a; color: #FFFFFF; }
+        .whatsapp-floating-btn svg { width: 34px; height: 34px; fill: currentColor; }
+
+        /* Fixed mobile layout query selectors syntax bugs */
+        @media (max-width:900px) { 
+            .navbar { padding:10px 16px; } 
+            .navbar img { height:42px; } 
+            .nav-actions { gap:12px; font-size:10px; letter-spacing:1px; } 
+            .hero { grid-template-columns:1fr; padding:108px 22px 54px; min-height:auto; } 
+            .booking-panel { padding:26px; } 
+            section { padding:68px 22px; } 
+            .whatsapp-floating-btn { bottom: 24px; right: 24px; width: 54px; height: 54px; }
+            .whatsapp-floating-btn svg { width: 30px; height: 30px; }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalWebPage",
+      "name": "O-Shot Treatment in Klang",
+      "description": "Professional O-Shot therapy options designed to support women’s intimate wellness, physical comfort, and confidence at Royall Clinic.",
+      "url": "https://royallclinic.my/o-shot.html",
+      "lastReviewed": "2026-07-01",
+      "mainContentOfPage": {
+        "@type": "WebPageElement",
+        "cssSelector": "main"
+      },
+      "aspectReviewed": "Platelet-rich plasma (PRP) alternative therapeutic methods for female intimate wellness.",
+      "provider": {
+        "@type": "MedicalOrganization",
+        "name": "Royall Clinic",
+        "url": "https://royallclinic.my",
+        "logo": "https://royallclinic.my/images/logo.avif",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Klang",
+          "addressRegion": "Selangor",
+          "addressCountry": "MY"
+        }
+      }
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html#home" aria-label="Royall Clinic home"><img src="images/logo.avif" alt="Royall Clinic"></a>
+        <div class="nav-actions">
+            <a href="index.html#treatments">Treatments</a>
+            <a href="index.html#contact">Find Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <div>
+                <span class="eyebrow">Women's Health & Wellness</span>
+                <h1>O-Shot Treatment in Klang</h1>
+                <p class="lead">A specialized, medical regenerative treatment option using autologous growth factors to support intimate wellness, physical comfort, and personal confidence.</p>
+            </div>
+            <aside class="booking-panel">
+                <h2>Begin With a Consultation</h2>
+                <p>Schedule a completely confidential assessment with our medical professionals to verify if O-Shot therapy fits your wellness roadmap.</p>
+                <a class="button" href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20ask%20about%20O-Shot." target="_blank" rel="noopener">WhatsApp Clinic</a>
+            </aside>
+        </header>
+
+        <section class="bg-soft">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">How It Works</span>
+                    <h2>Regenerative Support for Intimate Wellness</h2>
+                    <p>The O-Shot (Orgasm Shot) is a minimally invasive clinical procedure utilizing Platelet-Rich Plasma (PRP) derived entirely from your own blood to naturally stimulate localized tissue health.</p>
+                </div>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Why Women Choose It</h3>
+                        <p>This medical innovation targets several natural anatomical changes associated with childbirth, hormonal shifts, and aging:</p>
+                        <ul>
+                            <li>Alleviating stress urinary incontinence (SUI)</li>
+                            <li>Improving overall local tissue sensitivity</li>
+                            <li>Enhancing natural hydration and cellular comfort</li>
+                            <li>Relieving discomfort during physical intimacy</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>What To Expect</h3>
+                        <p>Our priority is providing a completely supportive, professional clinical environment throughout your entire journey:</p>
+                        <p>Following a blood draw, plasma concentrated with key regenerative factors is precisely isolated. A localized topical numbing block guarantees optimal structural comfort during the brief application process.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container" style="text-align: center;">
+                <div class="section-head" style="margin: 0 auto 48px;">
+                    <span class="eyebrow">FAQ</span>
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Clear answers to common questions regarding intimate growth-factor treatments.</p>
+                </div>
+                
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3>Is there any downtime after an O-Shot procedure?</h3>
+                        <p>Minimal to no down-time is required. Most patients resume regular daily programmatic schedules immediately, following simple personalized hygiene protocols provided post-consultation.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>When do you typically see visible results?</h3>
+                        <p>While tissue revitalization begins cellular cycles quickly, early feedback shifts often surface within 3 to 7 days, with complete optimal benefits developing over 2 to 3 months.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Is the clinical procedure painful?</h3>
+                        <p>We implement medical-grade local topical desensitization creams prior to the procedure to maintain a highly comfortable, pressure-only sensation environment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta bg-soft">
+            <div class="container">
+                <h2>Book a Private Consultation</h2>
+                <p>Take charge of your personal wellness. Connect directly with our clinical professionals in Klang for an open, strictly confidential discussion.</p>
+                <a class="button" href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20book%20an%20O-Shot%20consultation." target="_blank" rel="noopener">Book A Consultation</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Royall Clinic 2026 | Klang, Selangor | Be Loyal To The Royall Within
+    </footer>
+
+    <a href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20ask%20about%20the%20O-Shot%20treatment." class="whatsapp-floating-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.457L0 24zm6.59-4.846c1.66.986 3.288 1.48 4.888 1.481 5.421 0 9.832-4.414 9.836-9.84.002-2.628-1.023-5.1-2.885-6.964C16.56 1.967 14.09 .943 11.467.943 6.046.943 1.636 5.358 1.632 10.783c-.001 1.745.486 3.447 1.411 4.95l-.995 3.637 3.734-.979zm11.367-5.836c-.327-.164-1.938-.955-2.239-1.065-.301-.109-.522-.164-.74.164-.218.328-.844 1.066-1.034 1.284-.19.218-.38.245-.707.081-.327-.164-1.381-.508-2.63-1.622-.972-.867-1.628-1.939-1.819-2.266-.19-.328-.02-.505.144-.668.148-.146.327-.382.49-.574.164-.19.219-.328.328-.546.11-.218.055-.41-.028-.574-.082-.164-.74-1.785-1.014-2.441-.267-.641-.539-.554-.74-.564-.19-.01-.41-.01-.628-.01s-.573.082-.873.41c-.301.328-1.147 1.12-1.147 2.733s1.173 3.172 1.337 3.39c.164.218 2.308 3.52 5.59 4.94 1.147.496 1.832.553 2.502.454.767-.113 2.348-.958 2.674-1.884.327-.926.327-1.72.229-1.884-.099-.165-.327-.247-.655-.41z"/>
+        </svg>
+    </a>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-MY">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Health | Royall Clinic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        :root { --primary: #0B1A23; --accent: #c8a16a; --bg: #ffffff; --premium-ease: cubic-bezier(0.22, 1, 0.36, 1); }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; color: var(--primary); background: var(--bg); line-height: 1.7; }
+        body a { color: inherit; text-decoration: none; }
+        .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--primary); padding: 14px 28px; display: flex; align-items: center; justify-content: space-between; }
+        .navbar img { height: 52px; display: block; }
+        .nav-actions { display: flex; gap: 18px; align-items: center; color: #fff; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; font-weight: 700; }
+        .nav-actions a:hover { color: var(--accent); }
+        .page-wrap { max-width: 1200px; margin: 0 auto; padding: 80px 40px; }
+        .section-tag { display: inline-block; color: var(--accent); letter-spacing: 4px; font-weight: 700; font-size: 11px; margin-bottom: 20px; text-transform: uppercase; }
+        h1 { font-family: 'Playfair Display', serif; font-size: 48px; margin: 20px 0 16px; line-height: 1.05; }
+        .intro { max-width: 760px; color: #5b6170; font-size: 16px; margin-bottom: 44px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px; }
+        .card { position: relative; overflow: hidden; border-radius: 26px; min-height: 320px; box-shadow: 0 30px 90px rgba(0,0,0,0.08); cursor: pointer; transition: transform 0.35s var(--premium-ease), box-shadow 0.35s var(--premium-ease); }
+        .card:hover { transform: translateY(-8px); box-shadow: 0 38px 110px rgba(0,0,0,0.14); }
+        .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .card-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 28px 24px; background: linear-gradient(180deg, rgba(4,28,34,0) 0%, rgba(4,28,34,0.92) 100%); color: #fff; }
+        .card-label h3 { margin: 0; font-family: 'Playfair Display', serif; font-size: 22px; line-height: 1.2; }
+        .page-footer { margin-top: 44px; text-align: center; }
+        .back-link { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; border: 1px solid rgba(11,26,35,0.15); border-radius: 999px; color: var(--primary); background: rgba(200,161,106,0.08); font-weight: 600; }
+        footer { background: #041c22; color: rgba(255,255,255,0.68); padding: 36px 40px; text-align: center; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+        @media (max-width: 900px) {
+            .navbar { padding: 10px 16px; }
+            .navbar img { height: 42px; }
+            .nav-actions { gap: 12px; font-size: 10px; letter-spacing: 1px; }
+        }
+        @media (max-width: 720px) { .page-wrap { padding: 40px 20px; } h1 { font-size: 36px; } }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html#home" aria-label="Royall Clinic home"><img src="images/logo.avif" alt="Royall Clinic"></a>
+        <div class="nav-actions">
+            <a href="index.html#gp-services">General Practice</a>
+            <a href="index.html#contact">Find Us</a>
+        </div>
+    </nav>
+
+    <main class="page-wrap">
+        <span class="section-tag">PRIMARY HEALTHCARE</span>
+        <h1>Women's Health</h1>
+        <p class="intro">Private and comprehensive medical care for women. Click on any specialized service below to view specific treatment details.</p>
+        <div class="grid">
+            <a class="card" href="pregnancy-test.html">
+                <img src="images/pregnancy-test.avif" alt="Pregnancy test at Royall Clinic">
+                <div class="card-label"><h3>Pregnancy test</h3></div>
+            </a>
+            <a class="card" href="postnatal-checkup.html">
+                <img src="images/postnatal-checkup.avif" alt="Postnatal checkup at Royall Clinic">
+                <div class="card-label"><h3>Postnatal checkup</h3></div>
+            </a>
+            <a class="card" href="pap-smear.html">
+                <img src="images/pap-smear.avif" alt="Pap smear at Royall Clinic">
+                <div class="card-label"><h3>Pap smear & breast examination</h3></div>
+            </a>
+            <a class="card" href="family-planning.html">
+                <img src="images/gp-family-planning.avif" alt="Family planning at Royall Clinic">
+                <div class="card-label"><h3>Family planning & contraception</h3></div>
+            </a>
+            <a class="card" href="infertility-screening.html">
+                <img src="images/infertility-screening.avif" alt="Infertility screening at Royall Clinic">
+                <div class="card-label"><h3>Infertility screening</h3></div>
+            </a>
+            <a class="card" href="o-shot.html">
+                <img src="images/o-shot.avif" alt="O-shot treatment at Royall Clinic">
+                <div class="card-label"><h3>O-shot</h3></div>
+            </a>
+        </div>
+        <div class="page-footer"><a class="back-link" href="index.html">← Back to GP categories</a></div>
+    </main>
+    <footer>
+        Royall Clinic 2026 | Klang, Selangor | Be Loyal To The Royall Within
+    </footer>
+    <script src="assets/whatsapp-float.js"></script>
+</body>
+</html>
+
+
