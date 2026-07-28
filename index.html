@@ -8,9 +8,9 @@
     <meta name="apple-mobile-web-app-title" content="Royall Clinic">
     <meta name="mobile-web-app-capable" content="yes">
     
-    <title>Medical & Aesthetic Clinic in Klang | Royall Clinic</title>
-    <meta name="description" content="Visit our Klang clinic for advanced medical and aesthetic care at Royall Clinic. Book an appointment for personalised treatment and expert consultation now.">
-    <meta name="keywords" content="Aesthetic Clinic Klang, Pigmentation Treatment Selangor, Minor Surgery Klang, Medical Dermatology Selangor, GP Clinic Klang, Health Screening Klang, Family Planning Clinic, In-Clinic Ultrasound X-Ray">
+    <title>Medical Clinic in Klang | Royall Clinic</title>
+    <meta name="description" content="Visit our Klang clinic for advanced medical and general practice care at Royall Clinic. Book an appointment for personalised clinical treatment and expert consultation now.">
+    <meta name="keywords" content="Medical Clinic Klang, Pigmentation Treatment Selangor, Minor Surgery Klang, Medical Dermatology Selangor, GP Clinic Klang, Health Screening Klang, Family Planning Clinic, In-Clinic Ultrasound X-Ray">
     <meta name="author" content="Royall Clinic">
     <meta name="robots" content="index, follow, max-image-preview:large">
 
@@ -23,16 +23,16 @@
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://royallclinic.my">
-    <meta property="og:title" content="Royall Clinic | Premium Corrective Aesthetics & Family GP Klang">
-    <meta property="og:description" content="Elite medical and aesthetics clinic in Klang. Specializing in advanced laser treatments, minor surgery, comprehensive health screenings, and medical dermatology.">
+    <meta property="og:title" content="Royall Clinic | Premium Medical & Family GP Klang">
+    <meta property="og:description" content="Elite medical clinic in Klang. Specializing in minor surgery, comprehensive health screenings, and medical dermatology.">
     <meta property="og:image" content="https://royallclinic.my/images/hero1.avif">
     <meta property="og:site_name" content="Royall Clinic">
     <meta property="og:locale" content="en_MY">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://royallclinic.my">
-    <meta name="twitter:title" content="Royall Clinic | Premium Corrective Aesthetics & Family GP Klang">
-    <meta name="twitter:description" content="Elite medical and aesthetics clinic in Klang. Specializing in advanced laser treatments, minor surgery, comprehensive health screenings, and medical dermatology.">
+    <meta name="twitter:title" content="Royall Clinic | Premium Medical & Family GP Klang">
+    <meta name="twitter:description" content="Elite medical clinic in Klang. Specializing in minor surgery, comprehensive health screenings, and medical dermatology.">
     <meta name="twitter:image" content="https://royallclinic.my/images/hero1.avif">
     <meta name="theme-color" content="#0B1A23">
 
@@ -41,8 +41,8 @@
   "@context": "https://schema.org",
   "@type": "MedicalClinic",
   "name": "Royall Clinic",
-  "alternateName": ["Royall Clinic Klang GP and Aesthetics", "Klinik Royall"],
-  "description": "Premium medical clinic and corrective aesthetics center in Klang, providing comprehensive general practice (GP) medicine, minor surgical procedures, medical dermatology, health screenings, and high-end facial or body transformations.",
+  "alternateName": ["Klinik Royall"],
+  "description": "Premium medical clinic and family GP centre in Klang, providing comprehensive general practice medicine, minor surgical procedures, medical dermatology, health screenings, and patient-focused clinical care.",
   "image": "https://royallclinic.my/images/hero1.avif",
   "logo": "https://royallclinic.my/images/logo.avif",
   "@id": "https://royallclinic.my/#clinic",
@@ -50,11 +50,9 @@
   "telephone": "+60178788774",
   "priceRange": "$$",
   "knowsAbout": [
-    "Medical Aesthetics",
     "General Practice Medicine",
     "Minor Surgical Procedures",
     "Medical Dermatology",
-    "Pigmentation Removal Laser",
     "Family Planning Services",
     "Diagnostic Health Screenings"
   ],
@@ -78,30 +76,8 @@
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Royall Clinic Medical & Aesthetic Services",
+    "name": "Royall Clinic Medical Services",
     "itemListElement": [
-      {
-        "@type": "OfferCatalog",
-        "name": "Medical Aesthetic Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Corrective Pigmentation Laser Removal",
-              "description": "Advanced Laser Melanin Shattering for deep epidermal melasma, solar lentigines, and age spots."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "HIFU Structural Skin Tightening",
-              "description": "Non-invasive high-intensity focused ultrasound targeting the SMAS fascial layer to lift sagging facial tissues."
-            }
-          }
-        ]
-      },
       {
         "@type": "OfferCatalog",
         "name": "General Practice, Diagnostics & Minor Surgery",
@@ -226,7 +202,7 @@
         .nav-links a { text-decoration: none; color: white; font-size: 12px; text-transform: uppercase; letter-spacing: 2px; font-weight: 600; cursor: pointer; transition: 0.3s; padding: 12px 10px; min-height: 48px; display: flex; align-items: center; border-radius: 4px; }
         .nav-links a:hover, .nav-links a:focus { color: var(--accent); background: rgba(200, 161, 106, 0.14); }
 
-        /* Aesthetics dropdown - Desktop only */
+        /* Dropdown menu styles */
         .has-dropdown { position: relative; }
         .has-dropdown > .dropdown-toggle::after { content: "▾"; font-size: 9px; margin-left: 6px; opacity: 0.7; transition: transform 0.3s; display: inline-block; }
         .has-dropdown.open > .dropdown-toggle::after { transform: rotate(180deg); }
@@ -414,14 +390,7 @@
                 border-bottom: 1px solid rgba(200, 161, 106, 0.15);
                 font-weight: 700;
             }
-            .has-dropdown#aestheticsDropdown > .dropdown-menu::before { content: '\2190 Aesthetics'; }
-            .has-dropdown#gpDropdown > .dropdown-menu::before { content: '\2190 General Practice'; }
-            .dropdown-menu a { font-size: 16px; text-align: center; justify-content: center; padding: 12px 16px; min-height: 44px; letter-spacing: 1.5px; }
 
-            .hero-card { margin: 0 16px; padding: 36px 28px; width: calc(100% - 32px); max-width: 100%; text-align: center; border-left: none; border-top: 5px solid var(--accent); }
-            .hero-card h1 { font-size: 30px; }
-            .grid { grid-template-columns: 1fr; }
-            .flex-box, .contact-wrap { flex-direction: column !important; }
             .wa-chat-bubble { display: none; }
         }
 
@@ -569,16 +538,16 @@
         <section id="home" class="hero">
             <div class="hero-bg" id="heroBg"></div>
             <div class="hero-card" id="heroCard">
-                <p class="section-tag">LCP-CERTIFIED MEDICAL AESTHETICS</p>
-                <h1>Mastering The Science Of Flawless Correction</h1>
-                <button class="book-now-btn open-modal" style="margin-top:20px;">Begin Transformation</button>
+                <p class="section-tag">REGISTERED MEDICAL CLINIC</p>
+                <h1>Mastering The Science Of Clinical Care</h1>
+                <button class="book-now-btn open-modal" style="margin-top:20px;">Book a Consultation</button>
             </div>
         </section>
 
 
 
         <section id="gp-services" style="padding: 120px 40px; background: #ffffff; text-align: center;">
-    <span class="section-tag reveal">PRIMARY HEALTHCARE</span>
+    <span class="section-tag reveal">REGISTERED MEDICAL CLINIC</span>
     <h2 class="reveal" style="font-family:'Playfair Display', serif; font-size:42px; color: var(--primary); margin-bottom: 20px;">General Practice & Surgery</h2>
     <p class="reveal" style="max-width: 700px; margin: 0 auto 50px; color: #666; font-size: 15px;">
         Comprehensive medical care for families and corporate clients in Klang. Providing trusted, doctor-led clinical consultations, preventive screenings, and acute medical treatments.
@@ -593,10 +562,10 @@
             </div>
             <div class="card reveal category-card" onclick="window.location.href='hair.html'">
                 <div class="card-image-link">
-                    <img src="images/hair.avif" alt="Hair treatment at Royall Clinic">
+                    <img src="images/hair.avif" alt="Hair and scalp care at Royall Clinic">
                 </div>
                 <div class="card-label">
-                    <h3>Hair Treatments</h3>
+                    <h3>Hair & Scalp Care</h3>
                 </div>
             </div>
             <div class="card reveal category-card" onclick="window.location.href='gp-dermatology.html'">
@@ -823,7 +792,7 @@
                     <span class="section-tag">ABOUT US</span>
                     <h2>Royall Clinic</h2>
                     <p><strong>Royall Clinic</strong> was established in 2018 and is proudly owned by <strong>Novaxel Sdn Bhd</strong>.</p>
-                    <p style="margin-top: 20px;">Originally founded as a dedicated general practice clinic, Royall Clinic has since evolved into a premier doctor-led primary care and aesthetic center. Today, we seamlessly integrate comprehensive general medicine with advanced, evidence-based aesthetic treatments.</p>
+                    <p style="margin-top: 20px;">Originally founded as a dedicated general practice clinic, Royall Clinic has since evolved into a premier doctor-led primary care center. Today, we seamlessly integrate comprehensive general medicine with evidence-based clinical treatments.</p>
                     <p style="margin-top: 20px;">Located at Pusat Perniagaan Bestari in Bandar Bestari, Klang, Selangor, our clinic is led by highly experienced medical professionals. We combine modern medical expertise with personalized care, focusing on preventive medicine and wellness. At Royall Clinic, we are dedicated to helping our patients achieve optimal health, renewed confidence, and an enhanced quality of life.</p>
                 </div>
                 <div class="about-us-profile reveal" style="transition-delay: 0.3s;">
@@ -835,9 +804,9 @@
                         <p style="margin-top: 10px; font-style: italic; color: rgba(11,26,35,0.75);">Founder of Novaxel Sdn Bhd & Lead Physician</p>
                         <ul>
                             <li>MBBS (AIMST University)</li>
-                            <li>Certified Aesthetician</li>
+                            <li>Certified Physician</li>
                         </ul>
-                        <blockquote>"True health and confidence begin with personalized care. My mission is to blend precise medical science with artful aesthetics, empowering you to look, feel, and live your absolute best."</blockquote>
+                        <blockquote>"True health and confidence begin with personalized care. Our mission is to combine precise medical science with compassionate clinical guidance."</blockquote>
                     </div>
                 </div>
             </div>
@@ -848,7 +817,7 @@
                 <div class="philosophy-text reveal">
                     <span class="section-tag" style="color: var(--accent);">THE SHARED JOURNEY</span>
                     <h2>Your Story is Our Story</h2>
-                    <p>In the reflection of every mirror lies a narrative waiting to be reclaimed. At Royall Clinic, we do not simply practice aesthetics; we curate the chapters of your confidence.</p>
+                    <p>At Royall Clinic, we focus on long-term wellness and care that supports every patient's natural health.</p>
                     <p style="margin-top: 20px;"><strong>Be Loyal To The Royall Within.</strong> It is more than a motto—it is a vow to honor the masterpiece that already exists beneath the surface.</p>
                     <p style="margin-top: 20px; font-style: italic; color: var(--accent); font-family: 'Playfair Display';">"Where your internal majesty meets our medical precision, a new story begins."</p>
                 </div>
@@ -907,114 +876,7 @@
         </section>
     </div>
 
-    <div id="face-page" class="treatment-page">
-        <div class="treatment-header"><h2>Facial Correction</h2></div>
-        
-        <div class="service-row">
-            <div class="service-img">
-                <div class="ba-slider-box">
-                    <div class="ba-img" style="background-image: url('images/f1_before.avif');"><span class="ba-tag" style="right:10px;">Before</span></div>
-                    <div class="ba-img ba-after" style="background-image: url('images/f1_after.avif');"><span class="ba-tag" style="left:10px;">After</span></div>
-                    <input type="range" class="ba-input" min="0" max="100" value="50" oninput="updateBA(this)">
-                </div>
-            </div>
-            <div class="service-text"><h3>1. Pigmentation</h3><p>Eliminate dark spots and sun damage.</p><div class="procedure-box"><strong>Solution:</strong> Advanced Laser Melanin Shattering.</div></div>
-        </div>
 
-        <div class="service-row">
-            <div class="service-img">
-                <div class="ba-slider-box">
-                    <div class="ba-img" style="background-image: url('images/f2_before.avif');"><span class="ba-tag" style="right:10px;">Before</span></div>
-                    <div class="ba-img ba-after" style="background-image: url('images/f2_after.avif');"><span class="ba-tag" style="left:10px;">After</span></div>
-                    <input type="range" class="ba-input" min="0" max="100" value="50" oninput="updateBA(this)">
-                </div>
-            </div>
-            <div class="service-text"><h3>2. Sagging Skin</h3><p>Restore structural integrity and lift contours.</p><div class="procedure-box"><strong>Solution:</strong> Micro-focused Ultrasound / HIFU.</div></div>
-        </div>
-
-        <div class="service-row">
-            <div class="service-img">
-                <div class="ba-slider-box">
-                    <div class="ba-img" style="background-image: url('images/f3_before.avif');"><span class="ba-tag" style="right:10px;">Before</span></div>
-                    <div class="ba-img ba-after" style="background-image: url('images/f3_after.avif');"><span class="ba-tag" style="left:10px;">After</span></div>
-                    <input type="range" class="ba-input" min="0" max="100" value="50" oninput="updateBA(this)">
-                </div>
-            </div>
-            <div class="service-text"><h3>3. Wrinkles</h3><p>Smooth deep expression lines.</p><div class="procedure-box"><strong>Solution:</strong> Clinical Toxins.</div></div>
-        </div>
-
-        <div class="service-row">
-            <div class="service-img">
-                <div class="ba-slider-box">
-                    <div class="ba-img" style="background-image: url('images/f4_before.avif');"><span class="ba-tag" style="right:10px;">Before</span></div>
-                    <div class="ba-img ba-after" style="background-image: url('images/f4_after.avif');"><span class="ba-tag" style="left:10px;">After</span></div>
-                    <input type="range" class="ba-input" min="0" max="100" value="50" oninput="updateBA(this)">
-                </div>
-            </div>
-            <div class="service-text"><h3>4. Scar / Uneven Skin</h3><p>Correct textural irregularities.</p><div class="procedure-box"><strong>Solution:</strong> Fractional Resurfacing.</div></div>
-        </div>
-
-        <div class="service-row">
-            <div class="service-img">
-                <div class="ba-slider-box">
-                    <div class="ba-img" style="background-image: url('images/f5_before.avif');"><span class="ba-tag" style="right:10px;">Before</span></div>
-                    <div class="ba-img ba-after" style="background-image: url('images/f5_after.avif');"><span class="ba-tag" style="left:10px;">After</span></div>
-                    <input type="range" class="ba-input" min="0" max="100" value="50" oninput="updateBA(this)">
-                </div>
-            </div>
-            <div class="service-text"><h3>5. Dull Skin</h3><p>Restore luminosity.</p><div class="procedure-box"><strong>Solution:</strong> Premium Skin Boosters.</div></div>
-        </div>
-        <button class="book-now-btn" onclick="goToSection('treatments')" style="display:block; margin:40px auto;">Back to Treatments</button>
-    </div>
-
-    <div id="body-page" class="treatment-page">
-        <div class="treatment-header"><h2>Body Sculpting</h2></div>
-        
-        <div class="service-row">
-            <div class="service-img">
-                <div class="ba-slider-box">
-                    <div class="ba-img" style="background-image: url('images/b1_before.avif');"><span class="ba-tag" style="right:10px;">Before</span></div>
-                    <div class="ba-img ba-after" style="background-image: url('images/b1_after.avif');"><span class="ba-tag" style="left:10px;">After</span></div>
-                    <input type="range" class="ba-input" min="0" max="100" value="50" oninput="updateBA(this)">
-                </div>
-            </div>
-            <div class="service-text"><h3>1. Slimming Program</h3><p>Non-invasive contouring.</p><div class="procedure-box"><strong>Tech:</strong> EMS Muscle Stimulation.</div></div>
-        </div>
-
-        <div class="service-row">
-            <div class="service-img">
-                <div class="ba-slider-box">
-                    <div class="ba-img" style="background-image: url('images/b2_before.avif');"><span class="ba-tag" style="right:10px;">Before</span></div>
-                    <div class="ba-img ba-after" style="background-image: url('images/b2_after.avif');"><span class="ba-tag" style="left:10px;">After</span></div>
-                    <input type="range" class="ba-input" min="0" max="100" value="50" oninput="updateBA(this)">
-                </div>
-            </div>
-            <div class="service-text"><h3>2. Fat Reduction</h3><p>Permanent fat elimination.</p><div class="procedure-box"><strong>Tech:</strong> Cryolipolysis / Fat Freezing.</div></div>
-        </div>
-
-        <div class="service-row">
-            <div class="service-img">
-                <div class="ba-slider-box">
-                    <div class="ba-img" style="background-image: url('images/b3_before.avif');"><span class="ba-tag" style="right:10px;">Before</span></div>
-                    <div class="ba-img ba-after" style="background-image: url('images/b3_after.avif');"><span class="ba-tag" style="left:10px;">After</span></div>
-                    <input type="range" class="ba-input" min="0" max="100" value="50" oninput="updateBA(this)">
-                </div>
-            </div>
-            <div class="service-text"><h3>3. Saggy Skin Reduction</h3><p>Tighten loose skin.</p><div class="procedure-box"><strong>Solution:</strong> Radio Frequency.</div></div>
-        </div>
-
-        <div class="service-row">
-            <div class="service-img">
-                <div class="ba-slider-box">
-                    <div class="ba-img" style="background-image: url('images/b5_before.avif');"><span class="ba-tag" style="right:10px;">Before</span></div>
-                    <div class="ba-img ba-after" style="background-image: url('images/b5_after.avif');"><span class="ba-tag" style="left:10px;">After</span></div>
-                    <input type="range" class="ba-input" min="0" max="100" value="50" oninput="updateBA(this)">
-                </div>
-            </div>
-            <div class="service-text"><h3>4. Hand Rejuvenation</h3><p>Reverse signs of aging on hands.</p><div class="procedure-box"><strong>Solution:</strong> Dermal Volumizers.</div></div>
-        </div>
-        <button class="book-now-btn" onclick="goToSection('treatments')" style="display:block; margin:40px auto;">Back to Treatments</button>
-    </div>
 
     <div id="hair-page" class="treatment-page">
         <div class="treatment-header"><h2>Hair Recovery</h2></div>
@@ -1056,14 +918,13 @@
             </div>
             <div class="service-text"><h3>3. Dandruff Treatment</h3><p>Scalp detoxification.</p><div class="procedure-box"><strong>Solution:</strong> Clinical Scalp Therapy.</div></div>
         </div>
-        <button class="book-now-btn" onclick="goToSection('treatments')" style="display:block; margin:40px auto;">Back to Treatments</button>
     </div>
 
 <footer>
         <div class="footer-grid">
             <div class="footer-logo">
                 <img src="images/logo.avif" alt="Royall Clinic Official Logo">
-                <p style="font-size: 14px; opacity: 0.7; max-width: 300px;">Be Loyal To The Royall Within. Our corrective aesthetics combine medical expertise with artistic precision.</p>
+                <p style="font-size: 14px; opacity: 0.7; max-width: 300px;">Be Loyal To The Royall Within. Our medical expertise combines clinical precision with patient-first care.</p>
                 <div class="social-icons">
                     <a href="https://www.instagram.com/royallclinicmalaysia/" target="_blank" aria-label="Instagram">
                         <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.054 1.805.249 2.227.412.558.217.957.477 1.377.896.419.42.679.819.896 1.377.163.422.358 1.057.412 2.227.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.054 1.17-.249 1.805-.412 2.227-.217.558-.477.957-.896 1.377-.42.419-.819.679-1.377.896-.422.163-1.057.358-2.227.412-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.054-1.805-.249-2.227-.412-.558-.217-.957-.477-1.377-.896-.419-.42-.679-.819-.896-1.377-.163-.422-.358-1.057-.412-2.227-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.054-1.17.249-1.805.412-2.227.217-.558.477-.957.896-1.377.42-.419.819-.679 1.377-.896.422-.163 1.057-.358 2.227-.412 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.209-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
@@ -1084,7 +945,6 @@
                 <div class="footer-title">Quick Links</div>
                 <ul class="footer-links">
                     <li><a onclick="goToSection('home')">Home</a></li>
-                    <li><a onclick="goToSection('treatments')">Aesthetics</a></li>
                     <li><a onclick="goToSection('gp-services')">General Practice</a></li>
                     <li><a onclick="goToSection('about')">The Legacy</a></li>
                     <li><a onclick="goToSection('about-us')">About Us</a></li>
@@ -1118,37 +978,13 @@
             menuBtn.innerHTML = navWrapper.classList.contains('mobile-active') ? '✕' : '☰';
             menuBtn.setAttribute('aria-expanded', navWrapper.classList.contains('mobile-active'));
             if (!navWrapper.classList.contains('mobile-active')) {
-                closeAestheticsDropdown();
                 closeGpDropdown();
             }
         }
 
-        function toggleAestheticsDropdown(e) {
-            if (e) { e.stopPropagation(); e.preventDefault(); }
-            closeGpDropdown(); // Close other dropdown first
-            const dd = document.getElementById('aestheticsDropdown');
-            if (!dd) return;
-            const isOpen = dd.classList.toggle('open');
-            const toggle = dd.querySelector('.dropdown-toggle');
-            if (toggle) toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-        }
-
-        function handleAestheticsClick(e) {
-            if (e) { e.stopPropagation(); e.preventDefault(); }
-            const isMobile = window.innerWidth <= 900;
-            if (isMobile) {
-                // Mobile: only toggle the dropdown (don't navigate / close menu)
-                toggleAestheticsDropdown();
-            } else {
-                // Desktop: scroll to Aesthetics section and open dropdown
-                goToSection('treatments');
-                toggleAestheticsDropdown();
-            }
-        }
 
         function toggleGpDropdown(e) {
             if (e) { e.stopPropagation(); e.preventDefault(); }
-            closeAestheticsDropdown(); // Close other dropdown first
             const dd = document.getElementById('gpDropdown');
             if (!dd) return;
             const isOpen = dd.classList.toggle('open');
@@ -1169,14 +1005,6 @@
             }
         }
 
-        function closeAestheticsDropdown() {
-            const dd = document.getElementById('aestheticsDropdown');
-            if (!dd) return;
-            dd.classList.remove('open');
-            const toggle = dd.querySelector('.dropdown-toggle');
-            if (toggle) toggle.setAttribute('aria-expanded', 'false');
-        }
-
         function closeGpDropdown() {
             const dd = document.getElementById('gpDropdown');
             if (!dd) return;
@@ -1186,15 +1014,12 @@
         }
 
         document.addEventListener('click', function(e) {
-            const aestheticsDd = document.getElementById('aestheticsDropdown');
             const gpDd = document.getElementById('gpDropdown');
-            if (aestheticsDd && !aestheticsDd.contains(e.target)) closeAestheticsDropdown();
             if (gpDd && !gpDd.contains(e.target)) closeGpDropdown();
         });
 
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
-                closeAestheticsDropdown();
                 closeGpDropdown();
             }
         });
