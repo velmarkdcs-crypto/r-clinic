@@ -185,6 +185,14 @@
             section { padding: 68px 22px; }
             .content-grid, .service-grid, .info-layout, .steps { grid-template-columns: 1fr; }
         }
+
+        @media (max-width: 640px) {
+            .result-card { max-width: none; }
+            .before-after { grid-template-columns: 1fr; gap: 0; }
+            .image-half { aspect-ratio: 4 / 5; min-height: 280px; }
+            .result-copy { padding: 18px 18px 22px; }
+            .tag { left: 8px; bottom: 8px; }
+        }
     </style>
     <link rel="stylesheet" href="assets/styles.css">
 
