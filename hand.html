@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-MY">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Treatments in Klang | Royall Clinic</title>
+    <meta name="description" content="Explore hand rejuvenation treatments at Royall Clinic, including rejuvenation, arm slimming, and arm tightening.">
+    <link rel="canonical" href="https://royallclinic.my/hand.html">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        :root { --primary:#0B1A23; --accent:#c8a16a; --soft:#f7f4ef; --ink:#263238; }
+        * { box-sizing:border-box; margin:0; padding:0; }
+        body { font-family:"Inter",sans-serif; color:var(--ink); background:#fff; line-height:1.7; }
+        a { color:inherit; text-decoration:none; }
+        .navbar { position:fixed; top:0; left:0; right:0; z-index:100; background:var(--primary); padding:14px 28px; display:flex; align-items:center; justify-content:space-between; }
+        .navbar img { height:52px; display:block; }
+        .nav-actions { display:flex; gap:18px; align-items:center; color:#fff; font-size:11px; letter-spacing:1.8px; text-transform:uppercase; font-weight:700; }
+        .nav-actions a:hover { color:var(--accent); }
+        .hero { min-height:88vh; padding:130px 40px 70px; display:grid; grid-template-columns:minmax(0,1fr) minmax(320px,500px); gap:54px; align-items:center; background:linear-gradient(90deg, rgba(11,26,35,0.94), rgba(11,26,35,0.72)), url("images/hand.avif") center/cover no-repeat; color:#fff; }
+        .eyebrow { display:block; color:var(--accent); font-size:11px; letter-spacing:4px; text-transform:uppercase; font-weight:700; margin-bottom:18px; }
+        h1, h2, h3 { font-family:"Playfair Display",serif; line-height:1.12; color:inherit; }
+        h1 { font-size:clamp(40px, 6vw, 72px); max-width:760px; margin-bottom:24px; }
+        .lead { max-width:670px; color:rgba(255,255,255,0.86); font-size:18px; font-weight:300; }
+        .booking-panel { background:rgba(255,255,255,0.96); color:var(--primary); border-top:5px solid var(--accent); padding:34px; box-shadow:0 30px 80px rgba(0,0,0,0.22); }
+        .booking-panel h2 { font-size:30px; margin-bottom:14px; }
+        .booking-panel p { font-size:14px; color:#56636a; margin-bottom:24px; }
+        .button { display:inline-flex; align-items:center; justify-content:center; min-height:46px; padding:0 22px; background:var(--accent); color:#fff; border:0; font-size:11px; letter-spacing:1.6px; text-transform:uppercase; font-weight:700; cursor:pointer; }
+        section { padding:92px 40px; }
+        .container { max-width:1180px; margin:0 auto; }
+        .section-head { max-width:760px; margin-bottom:38px; }
+        .section-head h2 { color:var(--primary); font-size:clamp(32px, 4vw, 48px); margin-bottom:16px; }
+        .section-head p { color:#5b666b; }
+        .treatment-grid { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:22px; }
+        .treatment-card { position:relative; overflow:hidden; border-radius:26px; min-height:320px; padding:32px 28px; background:linear-gradient(180deg, rgba(255,255,255,0.94), rgba(249,244,239,0.97)), center/cover no-repeat; background-size:cover; background-position:center; box-shadow:0 30px 90px rgba(0,0,0,0.08); transition:transform 0.35s ease, box-shadow 0.35s ease; display:flex; flex-direction:column; justify-content:flex-end; }
+        .treatment-card::before { content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(255,255,255,0), rgba(249,244,239,0.98)); pointer-events:none; z-index:1; }
+        .treatment-card > * { position:relative; z-index:2; }
+        .treatment-card:hover { transform:translateY(-8px); box-shadow:0 38px 110px rgba(0,0,0,0.14); }
+        .treatment-card h3 { color:var(--primary); font-size:24px; margin-bottom:14px; }
+        .treatment-card p { color:#647078; font-size:15px; line-height:1.7; }
+        .cta { text-align:center; background:#fff; }
+        .cta h2 { color:var(--primary); font-size:clamp(32px, 4vw, 48px); margin-bottom:18px; }
+        .cta p { max-width:680px; margin:0 auto 28px; color:#5f6b72; }
+        footer { background:#041c22; color:rgba(255,255,255,0.68); padding:36px 40px; text-align:center; font-size:12px; letter-spacing:1px; text-transform:uppercase; }
+
+        @media (max-width:900px) { .navbar { padding:10px 16px; } .navbar img { height:42px; } .nav-actions { gap:12px; font-size:10px; letter-spacing:1px; } .hero { grid-template-columns:1fr; padding:108px 22px 54px; min-height:auto; } .booking-panel { padding:26px; } section { padding:68px 22px; } .treatment-grid { grid-template-columns:1fr; } }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html#home" aria-label="Royall Clinic home"><img src="images/logo.avif" alt="Royall Clinic"></a>
+        <div class="nav-actions">
+            <a href="index.html#treatments">Treatments</a>
+            <a href="index.html#contact">Find Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <div>
+                <span class="eyebrow">Hand & Arm Rejuvenation</span>
+                <h1>Hand Treatments</h1>
+                <p class="lead">Refresh the appearance of the hands and arms with targeted treatments for skin texture, firmness, and definition.</p>
+            </div>
+            <aside class="booking-panel">
+                <h2>Begin With a Consultation</h2>
+                <p>We assess skin quality, laxity, and your goals before recommending the best treatment path for your hands or arms.</p>
+                <a class="button" href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20ask%20about%20Hand%20Treatments." target="_blank" rel="noopener">WhatsApp Clinic</a>
+            </aside>
+        </header>
+
+        <section>
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Popular Hand & Arm Treatments</span>
+                    <h2>Choose the treatment that fits your goals</h2>
+                    <p>Our care is guided by whether you want skin refinement, shape support, or more visible tightening in the upper arm area.</p>
+                </div>
+                <div class="treatment-grid">
+                    <a href="rejuvenation.html" style="color:inherit; text-decoration:none;">
+                        <article class="treatment-card" style="background-image: url('images/hand1.avif');">
+                            <h3>Rejuvenation</h3>
+                            <p>Improve skin texture, tone, and overall appearance of the hands and surrounding areas.</p>
+                        </article>
+                    </a>
+                    <a href="arm-slimming.html" style="color:inherit; text-decoration:none;">
+                        <article class="treatment-card" style="background-image: url('images/hand2.avif');">
+                            <h3>Arm Slimming</h3>
+                            <p>Support a leaner, more sculpted arm profile through targeted body contouring approaches.</p>
+                        </article>
+                    </a>
+                    <a href="arm-tightening.html" style="color:inherit; text-decoration:none;">
+                        <article class="treatment-card" style="background-image: url('images/hand3.avif');">
+                            <h3>Arm Tightening</h3>
+                            <p>Improve firmness and reduce the look of laxity for a more toned upper arm appearance.</p>
+                        </article>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Refresh the look of your hands and arms</h2>
+                <p>From subtle rejuvenation to sculpting support, we create personalised plans that suit your goals.</p>
+                <a class="button" href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20book%20a%20hand%20or%20arm%20treatment%20consultation." target="_blank" rel="noopener">Book A Consultation</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Royall Clinic 2026 | Klang, Selangor | Be Loyal To The Royall Within
+    </footer>
+    <script src="assets/whatsapp-float.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en-MY">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Contouring & Slimming Treatments Klang | Royall Clinic</title>
+    <meta name="description" content="Sculpt your silhouette with medical-grade body contouring, stubborn fat reduction, and advanced skin tightening treatments at Royall Clinic in Klang, Selangor.">
+    <meta name="keywords" content="body contouring klang, slimming treatment selangor, fat reduction clinic klang, skin tightening body, weight loss treatment klang, royall clinic body">
+    <link rel="canonical" href="https://royallclinic.com/body.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://royallclinic.com/body.html">
+    <meta property="og:title" content="Body Contouring & Slimming Treatments Klang | Royall Clinic">
+    <meta property="og:description" content="Eliminate stubborn localized fat and restore skin elasticity. Explore doctor-supervised body sculpting protocols in Klang.">
+    <meta property="og:image" content="https://royallclinic.com/images/body-og.jpg">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #0B1A23; --accent: #c8a16a; --soft: #f7f4ef; --ink: #263238; --premium-ease: cubic-bezier(0.25, 1, 0.5, 1); }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: "Inter", sans-serif; color: var(--ink); background: #fff; line-height: 1.7; }
+        a { color: inherit; text-decoration: none; transition: color 0.3s ease; }
+        
+        .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--primary); padding: 14px 28px; display: flex; align-items: center; justify-content: space-between; }
+        .navbar img { height: 52px; display: block; }
+        .nav-actions { display: flex; gap: 18px; align-items: center; color: #fff; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; font-weight: 700; }
+        .nav-actions a:hover { color: var(--accent); }
+        
+        .hero { min-height: 88vh; padding: 130px 40px 70px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 520px); gap: 54px; align-items: center; background: linear-gradient(90deg, rgba(11,26,35,0.94), rgba(11,26,35,0.72)), url("images/body.avif") center/cover no-repeat; color: #fff; }
+        .hero-content { max-width: 760px; }
+        .eyebrow { display: block; color: var(--accent); font-size: 11px; letter-spacing: 4px; text-transform: uppercase; font-weight: 700; margin-bottom: 18px; }
+        h1, h2, h3 { font-family: "Playfair Display", serif; line-height: 1.12; color: inherit; }
+        h1 { font-size: clamp(40px, 6vw, 76px); max-width: 780px; margin-bottom: 24px; }
+        .lead { max-width: 670px; color: rgba(255,255,255,0.86); font-size: 18px; font-weight: 300; }
+        
+        .booking-panel { background: rgba(255,255,255,0.96); color: var(--primary); border-top: 5px solid var(--accent); padding: 34px; box-shadow: 0 30px 80px rgba(0,0,0,0.22); }
+        .booking-panel h2 { font-size: 30px; margin-bottom: 14px; }
+        .booking-panel p { font-size: 14px; color: #56636a; margin-bottom: 24px; }
+        .button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 22px; background: var(--accent); color: #fff; border: 0; font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase; font-weight: 700; cursor: pointer; transition: background 0.3s; }
+        .button:hover { background: #b08b57; }
+        
+        section { padding: 92px 40px; }
+        .container { max-width: 1180px; margin: 0 auto; }
+        .section-head { max-width: 760px; margin-bottom: 38px; }
+        .section-head h2 { color: var(--primary); font-size: clamp(32px, 4vw, 48px); margin-bottom: 16px; }
+        .section-head p { color: #5b666b; font-size: 16px; }
+        
+        .treatment-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+        .treatment-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 26px;
+            min-height: 320px;
+            padding: 32px 28px;
+            background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(249,244,239,0.97));
+            box-shadow: 0 30px 90px rgba(0,0,0,0.08);
+            transition: transform 0.35s var(--premium-ease), box-shadow 0.35s var(--premium-ease);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .treatment-card:hover { transform: translateY(-8px); box-shadow: 0 38px 110px rgba(0,0,0,0.14); }
+        .treatment-card h3 { color: var(--primary); font-size: 24px; margin-bottom: 14px; }
+        .treatment-card p { color: #647078; font-size: 15px; line-height: 1.7; }
+        
+        .results { background: var(--soft); }
+        .result-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+        .result-card { background: #fff; border-radius: 4px; overflow: hidden; border: 1px solid #e8e0d5; }
+        .before-after { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: #e8e0d5; }
+        .image-half { position: relative; aspect-ratio: 4 / 5; background: #ddd; }
+        .image-half img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .tag { position: absolute; left: 10px; bottom: 10px; background: rgba(11,26,35,0.88); color: var(--accent); padding: 4px 9px; font-size: 10px; letter-spacing: 1.2px; text-transform: uppercase; font-weight: 700; }
+        .result-copy { padding: 22px; }
+        .result-copy h3 { color: var(--primary); font-size: 22px; margin-bottom: 8px; }
+        .procedure-box { background: #f9f9f9; padding: 20px; border-left: 3px solid var(--accent); margin-top: 15px; font-size: 14px; color: #333; line-height: 1.6; }
+        
+        .process { background: var(--primary); color: #fff; }
+        .process .section-head h2 { color: #fff; }
+        .process .section-head p { color: rgba(255,255,255,0.7); }
+        .steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+        .step { border-left: 2px solid var(--accent); padding-left: 20px; }
+        .step strong { display: block; color: var(--accent); font-size: 12px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; }
+        .step h3 { font-size: 22px; margin-bottom: 8px; color: #fff; }
+        .step p { color: rgba(255,255,255,0.72); font-size: 14px; }
+        
+        /* INTERACTIVE ACCORDION */
+        .faq-section { background: #fff; }
+        .faq-grid { max-width: 880px; margin: 0 auto; display: grid; gap: 16px; }
+        details { background: var(--soft); padding: 18px 24px; border-radius: 4px; cursor: pointer; }
+        summary { font-weight: 600; font-family: "Playfair Display", serif; font-size: 18px; color: var(--primary); list-style: none; display: flex; justify-content: space-between; align-items: center; }
+        summary::after { content: "+"; font-size: 20px; color: var(--accent); }
+        details[open] summary::after { content: "−"; }
+        details p { margin-top: 12px; font-size: 14px; color: #5f6b72; }
+
+        .cta { text-align: center; background: var(--soft); }
+        .cta h2 { color: var(--primary); font-size: clamp(32px, 4vw, 50px); margin-bottom: 18px; }
+        .cta p { max-width: 680px; margin: 0 auto 28px; color: #5f6b72; }
+        footer { background: #041c22; color: rgba(255,255,255,0.68); padding: 36px 40px; text-align: center; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+        
+        @media (max-width: 900px) { 
+            .navbar { padding: 10px 16px; }
+            .navbar img { height: 42px; }
+            .hero { grid-template-columns: 1fr; padding: 108px 22px 54px; min-height: auto; } 
+            .booking-panel { padding: 26px; }
+            section { padding: 68px 22px; } 
+            .treatment-grid, .result-grid, .steps, .faq-grid { grid-template-columns: 1fr; } 
+        }
+    </style>
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <!-- SEO SCHEMA INTELLIGENCE -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does non-invasive body contouring differ from surgical liposuction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non-invasive body contouring eliminates stubborn fat cells using medical technologies like radiofrequency or ultrasound without incisions, anesthesia, or downtime. Liposuction is a surgical procedure requiring downtime and recovery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many body slimming sessions are typically required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients achieve optimal results within 4 to 6 sessions, spaced 2 weeks apart, depending on individual body composition and targeting goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there any downtime after a skin tightening treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is zero downtime. You can return to your regular daily activities, including work and exercise, immediately following your clinic session."
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html#home" aria-label="Royall Clinic home"><img src="images/logo.avif" alt="Royall Clinic"></a>
+        <div class="nav-actions">
+            <a href="face.html">Face Treatments</a>
+            <a href="index.html#contact">Find Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- MASTER HERO ENTRY -->
+        <header class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">Advanced Body Sculpting</span>
+                <h1>Medical Body Treatments in Klang</h1>
+                <p class="lead">Reshape structural contours without surgical downtime. Royall Clinic delivers advanced body contouring, target weight loss options, and non-surgical skin tightening protocols right here in Klang, Selangor.</p>
+            </div>
+            <aside class="booking-panel">
+                <h2>Begin Your Transformation</h2>
+                <p>Schedule an accurate, doctor-supervised body analysis to isolate stubborn fat deposits and formulate your medical weight loss plan.</p>
+                <a class="button" href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20inquire%20about%20Medical%20Body%20Contouring%20in%20Klang." target="_blank" rel="noopener">WhatsApp Clinic</a>
+            </aside>
+        </header>
+
+        <!-- SEARCH SIGNAL BOOSTER: Interactive Body Profile Matrix -->
+        <section style="background: #fff; padding: 60px 40px 20px;">
+            <div class="container" style="max-width: 840px; margin: 0 auto; background: var(--soft); padding: 34px; border-radius: 8px; border: 1px solid #e8e0d5;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 26px; color: var(--primary); margin-bottom: 12px; text-align: center;">Clinical Treatment Router</h3>
+                <p style="font-size: 14px; color: #5f6b72; text-align: center; margin-bottom: 22px;">Select your primary structural body goal to identify the appropriate non-surgical clinical path:</p>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 22px;">
+                    <button onclick="routeBody('fat')" style="padding: 12px; background: #fff; border: 1px solid var(--accent); font-weight: 600; cursor: pointer; font-size: 12px; color: var(--primary);">Stubborn Fat Pouches</button>
+                    <button onclick="routeBody('laxity')" style="padding: 12px; background: #fff; border: 1px solid var(--accent); font-weight: 600; cursor: pointer; font-size: 12px; color: var(--primary);">Post-Pregnancy Loose Skin</button>
+                    <button onclick="routeBody('cellulite')" style="padding: 12px; background: #fff; border: 1px solid var(--accent); font-weight: 600; cursor: pointer; font-size: 12px; color: var(--primary);">Cellulite Dimples</button>
+                </div>
+                <div id="bodyRouterResult" style="background: #fff; padding: 18px; border-radius: 4px; font-size: 14px; border-left: 4px solid var(--accent); min-height: 70px; color: #5f6b72;">
+                    Select an option above to preview our doctor-supervised target configurations.
+                </div>
+                <script>
+                    function routeBody(goal) {
+                        const res = document.getElementById('bodyRouterResult');
+                        if(goal==='fat') res.innerHTML = "<strong>Target Fat Reduction:</strong> Focuses on stubborn pockets like the abdomen, flanks, or thighs using deep lipolytic tech to eliminate fat cells cleanly.";
+                        if(goal==='laxity') res.innerHTML = "<strong>Dermal Tightening:</strong> Directs multi-polar radiofrequency energy into the loose skin layers to instantly contract collagen matrices and improve skin laxity.";
+                        if(goal==='cellulite') res.innerHTML = "<strong>Cellulite Fibrous Disruption:</strong> Combines mechanical acoustic pulses and deep thermal tracking to break up tough fibrous bands and smooth out dimpled skin textures.";
+                    }
+                </script>
+            </div>
+        </section>
+
+        <!-- SECTION 1: TREATMENT GRID ARTIFACTS -->
+        <section>
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Popular Body Treatments</span>
+                    <h2>Targeted solutions for contouring, firmness, and skin quality</h2>
+                    <p>Address specific physique targets safely. We combine modern clinical modalities to optimize waistline reductions, structural tissue remodeling, and fat-loss management.</p>
+                </div>
+                <div class="treatment-grid">
+                    <article class="treatment-card">
+                        <h3>Slimming &amp; Contouring</h3>
+                        <p>Eliminate diet-resistant fat cells selectively. Our advanced body contouring solutions isolate difficult areas like the waist, back fat, and love handles to sculpt a balanced profile without surgery.</p>
+                    </article>
+                    <article class="treatment-card">
+                        <h3>Skin Tightening</h3>
+                        <p>Address skin laxity caused by rapid weight loss or biological aging. This treatment delivers controlled thermal warmth deep into the dermis, accelerating collagen renewal for a firmer skin texture.</p>
+                    </article>
+                    <article class="treatment-card">
+                        <h3>Cellulite &amp; Texture</h3>
+                        <p>Smooth out persistent skin dimpling on the thighs and buttocks. Our approaches disrupt underlying fibrous tissues and improve local lymphatic drainage to visibly minimize uneven cellulite textures.</p>
+                    </article>
+                </div>
+                <div class="section-head" style="margin-top: 42px; max-width: 100%;">
+                    <p style="background: var(--soft); padding: 16px 24px; border-radius: 4px; font-size: 15px; color: var(--primary);"><strong>Common concerns we support in Selangor:</strong> Non-surgical local fat removal, targeted body slimming, custom body sculpting, and doctor-supervised weight loss management programs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: VERIFIED BEFORE/AFTER CASE DISPLAY -->
+        <section class="results">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Clinical Case Studies</span>
+                    <h2>Proven Structural Improvements</h2>
+                    <p>Review real patient transformations achieved through non-invasive body contouring treatments at our clinic.</p>
+                </div>
+                <div class="result-grid">
+                    <div class="result-card">
+                        <div class="before-after">
+                            <div class="image-half">
+                                <img src="images/abdominal_before.avif" alt="Abdomen before contouring treatment">
+                                <span class="tag">Before</span>
+                            </div>
+                            <div class="image-half">
+                                <img src="images/abs_after.avif" alt="Abdomen after 4 contouring treatments">
+                                <span class="tag">After 4 Weeks</span>
+                            </div>
+                        </div>
+                        <div class="result-copy">
+                            <h3>Abdominal Fat Reduction</h3>
+                            <p>Visible reduction in sub-umbilical fat deposits accompanied by improved structural skin contraction along the abdominal wall.</p>
+                        </div>
+                    </div>
+
+                    <div class="result-card">
+                        <div class="before-after">
+                            <div class="image-half">
+                                <img src="images/before-thighs.jpg" alt="Thigh skin laxity before skin tightening">
+                                <span class="tag">Before</span>
+                            </div>
+                            <div class="image-half">
+                                <img src="images/after-thighs.jpg" alt="Thigh skin texture after tightening treatments">
+                                <span class="tag">After 6 Weeks</span>
+                            </div>
+                        </div>
+                        <div class="result-copy">
+                            <h3>Thigh Firming &amp; Tightening</h3>
+                            <p>Visibly smoother dermal texture along the posterior thighs, showing reduced skin laxity and a firmer overall profile.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: CORE PROTOCOL TIMELINE -->
+        <section class="process">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Your Slimming Journey Matrix</h2>
+                    <p>What to expect when undergoing professional body contouring and slimming programs at Royall Clinic.</p>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <strong>Phase 01</strong>
+                        <h3>Metric Analysis</h3>
+                        <p>We perform accurate body mass screening and calibrate fat calipers to benchmark your foundational profile metrics.</p>
+                    </div>
+                    <div class="step">
+                        <strong>Phase 02</strong>
+                        <h3>Vector Mapping</h3>
+                        <p>We trace your target anatomical areas while you stand to map the application fields accurately.</p>
+                    </div>
+                    <div class="step">
+                        <strong>Phase 03</strong>
+                        <h3>Active Sculpting</h3>
+                        <p>Advanced non-invasive modalities deliver energy deep into localized fat tissues while preserving surface skin comfort.</p>
+                    </div>
+                    <div class="step">
+                        <strong>Phase 04</strong>
+                        <h3>Metabolic Flush</h3>
+                        <p>Disrupted fat lipids filter out naturally through your lymphatic system over the next 14 to 28 days.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: DEEP FAQS ACCORDION -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-head" style="text-align: center; margin: 0 auto 48px;">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Clear, direct insights regarding non-surgical body sculpting and professional slimming procedures in Klang.</p>
+                </div>
+                <div class="faq-grid">
+                    <details>
+                        <summary>How does non-invasive body contouring differ from surgical liposuction?</summary>
+                        <p>Non-invasive body contouring eliminates stubborn fat cells using medical technologies like radiofrequency or ultrasound without incisions, anesthesia, or downtime. Liposuction is a surgical procedure requiring downtime and recovery.</p>
+                    </details>
+                    <details>
+                        <summary>How many body slimming sessions are typically required?</summary>
+                        <p>Most patients achieve optimal results within 4 to 6 sessions, spaced 2 weeks apart, depending on individual body composition and targeting goals.</p>
+                    </details>
+                    <details>
+                        <summary>Is there any downtime after a skin tightening treatment?</summary>
+                        <p>There is zero downtime. You can return to your regular daily activities, including work and exercise, immediately following your clinic session.</p>
+                    </details>
+                    <details>
+                        <summary>Are the results from non-surgical fat reduction permanent?</summary>
+                        <p>Yes. Once target fat cells are disrupted and metabolized by the body, they do not return. Maintaining a stable lifestyle and balanced nutrition ensures your newly contoured silhouette remains permanent.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTEXTUAL FOOTER CALL TO ACTION -->
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to discuss your body treatment?</h2>
+                <p>Message Royall Clinic to arrange a professional consultation and receive clear guidance tailored to your body goals.</p>
+                <a class="button" href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20book%20a%20Body%20Treatments%20consultation." target="_blank" rel="noopener">Book On WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Royall Clinic 2026 | Klang, Selangor | Be Loyal To The Royall Within
+    </footer>
+    <script src="assets/whatsapp-float.js"></script>
+</body>
+</html>
