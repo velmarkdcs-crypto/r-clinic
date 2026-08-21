@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-MY">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Treatments in Klang | Dark Circles & Eyebrow Transplant | Royall Clinic</title>
+    <meta name="description" content="Explore advanced, doctor-led eye aesthetic treatments at Royall Clinic in Klang. Specializing in medical under-eye dark circle removal, tear trough hollowing correction, and natural eyebrow transplants.">
+    <meta name="keywords" content="eye treatments klang, dark circle removal klang, eyebrow transplant klang, tear trough filler klang, eye rejuvenation selangor, royall clinic">
+    <link rel="canonical" href="https://royallclinic.my/eye.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://royallclinic.my/eye.html">
+    <meta property="og:title" content="Advanced Eye & Periorbital Treatments in Klang | Royall Clinic">
+    <meta property="og:description" content="Restore brightness and symmetrical framework to your eyes. Explore clinical dark circle therapies and permanent eyebrow transplants under expert care in Klang.">
+    <meta property="og:image" content="https://royallclinic.my/images/darkcircle.avif">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        :root {
+            --primary: #0B1A23;
+            --accent: #c8a16a;
+            --soft: #f7f4ef;
+            --ink: #263238;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: "Inter", sans-serif; color: var(--ink); background: #fff; line-height: 1.7; }
+        a { color: inherit; text-decoration: none; transition: color 0.3s ease; }
+        .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--primary); padding: 14px 28px; display: flex; align-items: center; justify-content: space-between; }
+        .navbar img { height: 52px; display: block; }
+        .nav-actions { display: flex; gap: 18px; align-items: center; color: #fff; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; font-weight: 700; }
+        .nav-actions a:hover { color: var(--accent); }
+        
+        /* HERO COMPONENT */
+        .hero { min-height: 88vh; padding: 130px 40px 70px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 500px); gap: 54px; align-items: center; background: linear-gradient(90deg, rgba(11,26,35,0.94), rgba(11,26,35,0.72)), url("images/darkcircle.avif") center/cover no-repeat; color: #fff; }
+        .eyebrow { display: block; color: var(--accent); font-size: 11px; letter-spacing: 4px; text-transform: uppercase; font-weight: 700; margin-bottom: 18px; }
+        h1, h2, h3 { font-family: "Playfair Display", serif; line-height: 1.12; color: inherit; }
+        h1 { font-size: clamp(40px, 6vw, 72px); max-width: 760px; margin-bottom: 24px; }
+        .lead { max-width: 670px; color: rgba(255,255,255,0.86); font-size: 18px; font-weight: 300; }
+        
+        /* BOOKING CARD */
+        .booking-panel { background: rgba(255,255,255,0.96); color: var(--primary); border-top: 5px solid var(--accent); padding: 34px; box-shadow: 0 30px 80px rgba(0,0,0,0.22); }
+        .booking-panel h2 { font-size: 30px; margin-bottom: 14px; }
+        .booking-panel p { font-size: 14px; color: #56636a; margin-bottom: 24px; }
+        .button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 22px; background: var(--accent); color: #fff; border: 0; font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase; font-weight: 700; cursor: pointer; transition: background 0.3s; }
+        .button:hover { background: #b08b57; }
+        
+        /* SERVICES & CARDS */
+        section { padding: 92px 40px; }
+        .container { max-width: 1180px; margin: 0 auto; }
+        .section-head { max-width: 760px; margin-bottom: 48px; }
+        .section-head h2 { color: var(--primary); font-size: clamp(32px, 4vw, 48px); margin-bottom: 16px; }
+        .section-head p { color: #5b666b; font-size: 16px; }
+        .treatment-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
+        .treatment-card { position: relative; overflow: hidden; border-radius: 12px; min-height: 380px; padding: 40px 32px; background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(249,244,239,0.97)), center/cover no-repeat; background-size: cover; background-position: center; box-shadow: 0 20px 50px rgba(0,0,0,0.05); transition: transform 0.35s ease, box-shadow 0.35s ease; display: flex; flex-direction: column; justify-content: flex-end; border: 1px solid #ece7df; }
+        .treatment-card::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,26,35,0.05), rgba(249,244,239,0.98)); pointer-events: none; z-index: 1; }
+        .treatment-card > * { position: relative; z-index: 2; }
+        .treatment-card:hover { transform: translateY(-6px); box-shadow: 0 30px 70px rgba(0,0,0,0.12); }
+        .treatment-card h3 { color: var(--primary); font-size: 28px; margin-bottom: 14px; }
+        .treatment-card p { color: #56636a; font-size: 15px; line-height: 1.7; margin-bottom: 20px; }
+        .card-link { font-size: 11px; text-transform: uppercase; font-weight: 700; letter-spacing: 1.5px; color: var(--accent); display: inline-flex; align-items: center; gap: 6px; }
+        
+        /* INFO SECTION */
+        .info-band { background: var(--soft); }
+        .info-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 42px; align-items: start; }
+        .info-box { background: #fff; border: 1px solid #e8e0d5; border-radius: 4px; padding: 36px; }
+        .info-box h3 { color: var(--primary); font-size: 26px; margin-bottom: 16px; }
+        .info-list { list-style: none; display: grid; gap: 14px; }
+        .info-list li { padding-left: 20px; position: relative; color: #5f6b72; font-size: 15px; }
+        .info-list li::before { content: ""; position: absolute; left: 0; top: 11px; width: 7px; height: 7px; background: var(--accent); }
+
+        /* FAQ SECTION */
+        .faq-section { background: #fff; }
+        .faq-grid { max-width: 840px; margin: 0 auto; display: grid; gap: 16px; }
+        details { background: var(--soft); padding: 20px 26px; border-radius: 4px; cursor: pointer; }
+        summary { font-weight: 600; font-family: "Playfair Display", serif; font-size: 19px; color: var(--primary); list-style: none; display: flex; justify-content: space-between; align-items: center; }
+        summary::after { content: "+"; font-size: 22px; color: var(--accent); }
+        details[open] summary::after { content: "−"; }
+        details p { margin-top: 14px; font-size: 15px; color: #5f6b72; line-height: 1.6; }
+
+        /* CTA COMPONENT */
+        .cta { text-align: center; background: var(--soft); }
+        .cta h2 { color: var(--primary); font-size: clamp(32px, 4vw, 48px); margin-bottom: 18px; }
+        .cta p { max-width: 680px; margin: 0 auto 28px; color: #5f6b72; font-size: 16px; }
+        footer { background: #041c22; color: rgba(255,255,255,0.68); padding: 40px; text-align: center; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+
+        @media (max-width: 900px) {
+            .navbar { padding: 10px 16px; }
+            .navbar img { height: 42px; }
+            .nav-actions { gap: 12px; font-size: 10px; letter-spacing: 1px; }
+            .hero { grid-template-columns: 1fr; padding: 108px 22px 54px; min-height: auto; }
+            .booking-panel { padding: 26px; }
+            section { padding: 68px 22px; }
+            .treatment-grid, .info-layout { grid-template-columns: 1fr; }
+            .treatment-card { min-height: 340px; padding: 32px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html#home" aria-label="Royall Clinic home"><img src="images/logo.avif" alt="Royall Clinic Logo"></a>
+        <div class="nav-actions">
+            <a href="index.html#treatments">Treatments</a>
+            <a href="index.html#contact">Find Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Component -->
+        <header class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">Expert Periorbital Aesthetics</span>
+                <h1>Advanced Eye Treatments in Klang</h1>
+                <p class="lead">Overcome deep under-eye shadows and localized volume hollowing. Our doctor-led clinic designs precise protocols to revitalize and properly refresh your eyes.</p>
+            </div>
+            <aside class="booking-panel">
+                <h2>Begin With a Consultation</h2>
+                <p>We systematically map your lower eyelid structure, skin hyperpigmentation layers, or brow donor viability to develop a safe, high-efficacy treatment strategy.</p>
+                <a class="button" href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20ask%20about%20Eye%20Treatments." target="_blank" rel="noopener">WhatsApp Clinic</a>
+            </aside>
+        </header>
+
+        <!-- Treatments Grid Section -->
+        <section>
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Medical Aesthetics Hub</span>
+                    <h2>Targeted clinical solutions for periorbital fatigue & sparse arches</h2>
+                    <p>Address specific aging signs and structural imbalances surrounding the eye region. We pair high-precision technologies and sterile techniques to achieve exceptional symmetry.</p>
+                </div>
+                <div class="treatment-grid">
+                    <article class="treatment-card" style="background-image: url('images/darkcircle.avif');">
+                        <div>
+                            <h3>Dark Circle Removal & Rejuvenation</h3>
+                            <p>Correct persistent structural tear troughs, vascular shadows, and accumulated melanin pools using tailored dermal formatting agents, lasers, or polynucleotide cellular treatments.</p>
+                            <a href="dark-circle-removal.html" class="card-link">Explore Eye Brightening &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="treatment-card" style="background-image: url('images/eyebrow.avif'); display:none;" aria-hidden="true">
+                        <div>
+                            <h3>Medical Eyebrow Transplant</h3>
+                            <p>Rebuild patchy, sparse, or over-plucked eyebrows permanently. Using premium follicular unit extraction methods, hair grafts are carefully placed matching natural eyebrow growth angles.</p>
+                            <a href="eyebrow-transplant.html" class="card-link">Explore Brow Transplants &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clinical Insights Band -->
+        <section class="info-band">
+            <div class="container info-layout">
+                <div class="info-box">
+                    <h3>Anatomical Precision Matters</h3>
+                    <p style="color:#5f6b72; margin-bottom: 20px;">The tissues forming the periorbital boundary are structurally delicate. Safe treatment demands thorough clinical planning:</p>
+                    <ul class="info-list">
+                        <li>Ultralight injectables prevent swelling and unnatural fluid movement.</li>
+                        <li>Advanced micro-cannulas preserve vital vascular path flows.</li>
+                        <li>Custom brow line design respects your unique bone structure and facial width ratios.</li>
+                        <li>Sterile, state-certified facilities ensure optimal recovery security.</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <h3>When to Treat: Diagnostic Criteria</h3>
+                    <p style="color:#5f6b72; margin-bottom: 20px;">We help identify the underlying triggers behind typical structural fatigue:</p>
+                    <ul class="info-list">
+                        <li>Deep indentation lines forming dark shadows along the tear trough.</li>
+                        <li>Vascular congestion causing blue-purple under-eye coloration.</li>
+                        <li>Sparseness in the outer third of the eyebrows due to aging or genetics.</li>
+                        <li>Asymmetry across the brow bone that impacts natural eye frame harmony.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-head" style="text-align: center; margin: 0 auto 48px;">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Answering common medical and administrative questions regarding periorbital procedures.</p>
+                </div>
+                <div class="faq-grid">
+                    <details>
+                        <summary>Are under-eye brightening treatments permanent?</summary>
+                        <p>Structural tear trough fillers last 9 to 12 months as they naturally integrate and metabolize. Micro-laser and skin booster programs require periodic maintenance sessions every few months to consistently limit cellular pigment accumulation and preserve dermal thickness.</p>
+                    </details>
+                  
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Component -->
+        <section class="cta">
+            <div class="container">
+                <h2>Personalized Eye Care for a Rested, Balanced Gaze</h2>
+                <p>From subtle structural adjustments to full-density brow restoration, our clinical medical team targets precise corrections to improve your facial balance. Visit our clinic in Klang today.</p>
+                <a class="button" href="https://wa.me/60178788774?text=Hi%20Royall%20Clinic%2C%20I%27d%20like%20to%20book%20an%20eye%20treatment%20consultation." target="_blank" rel="noopener">Book Your Appointment Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Royall Clinic 2026 | Klang, Selangor | Be Loyal To The Royall Within
+    </footer>
+    <script src="assets/whatsapp-float.js"></script>
+</body>
+</html>
