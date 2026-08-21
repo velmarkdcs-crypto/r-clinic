@@ -975,6 +975,30 @@
   </div>
 </section>
 
+<!-- Toggle Script -->
+<script>
+  function toggleSoroArticles() {
+    const btn = document.getElementById('soro-toggle-btn');
+    const drawer = document.getElementById('soro-drawer');
+    const btnText = document.getElementById('soro-btn-text');
+    const arrow = document.getElementById('soro-arrow-icon');
+
+    const isOpen = drawer.style.gridTemplateRows === '1fr';
+
+    if (isOpen) {
+      drawer.style.gridTemplateRows = '0fr';
+      btn.setAttribute('aria-expanded', 'false');
+      btnText.textContent = 'Read Related Articles';
+      arrow.style.transform = 'rotate(0deg)';
+    } else {
+      drawer.style.gridTemplateRows = '1fr';
+      btn.setAttribute('aria-expanded', 'true');
+      btnText.textContent = 'Hide Articles';
+      arrow.style.transform = 'rotate(180deg)';
+    }
+  }
+</script>
+
         <section id="contact">
             <div class="contact-wrap">
                 <div class="reveal" style="flex:1">
