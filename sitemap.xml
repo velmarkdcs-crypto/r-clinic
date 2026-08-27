@@ -7,11 +7,138 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Aesthetic & Beauty Treatments -->
+  <url>
+    <loc>https://royallclinic.my/anti-aging.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/arm-slimming.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/arm-tightening.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/body.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/buttock.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/dark-circle-removal.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/eye.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/eyebrow-transplant.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/face-reshape-filler.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/face.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/facelift.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/fat-removal.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/firming-loose-skin.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/hand.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/laugh-line-treatment.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/mesotherapy.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/neck-wrinkle-reduction.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/neck.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/pigmentation.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/rejuvenation.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/sagging-skin-treatment.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/skin-rejuvenation.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/under-eye-treatment.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/v-shape-face.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://royallclinic.my/wrinkle-removal.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Medical Services & Treatments -->
   <url>
     <loc>https://royallclinic.my/corn-removal.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/dermatology.html</loc>
@@ -21,12 +148,12 @@
   <url>
     <loc>https://royallclinic.my/diabetic-wound-debridement.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/ecg-test.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/executive-health-screening.html</loc>
@@ -36,22 +163,22 @@
   <url>
     <loc>https://royallclinic.my/facial-acne.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/family-planning.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/fungal-acne-treatment.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/fungal-infection-treatment.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/general-medicine.html</loc>
@@ -61,32 +188,32 @@
   <url>
     <loc>https://royallclinic.my/gp-children-health.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/gp-dermatology.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/gp-general.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/gp-minor-procedures.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/gp-womens-health.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/hair.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/health-screening.html</loc>
@@ -96,97 +223,92 @@
   <url>
     <loc>https://royallclinic.my/infertility-screening.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/ingrown-toenail-treatment.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/keloid-scar-treatment.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://royallclinic.my/knee-injection.html</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/lichen-simplex-chronicus-treatment.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/lipoma-removal.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/men-health.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/nebulizer-treatment.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/o-shot.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/pap-smear.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/phlegm-suction-for-infants.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/postnatal-checkup.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/pregnancy-test.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/preventive-care.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/regen-functional-care.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/sebaceous-cyst-removal.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/seborrheic-dermatitis-treatment.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/skin-disease-treatment.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/skin-tag-removal.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/std-screening.html</loc>
@@ -196,31 +318,31 @@
   <url>
     <loc>https://royallclinic.my/ultrasound.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/urine-test.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/vaccination.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/wart-removal.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/wound-suturing.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://royallclinic.my/x-ray.html</loc>
     <lastmod>2026-07-26</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>
